@@ -69,14 +69,14 @@ if __name__ == "__main__":
     #message = "<ID00><BF>06<E>"
     #print(a.preparer_trame("<BE>"))
     #print(a.preparer_trame("<BF>"))
-    #print(a.preparer_trame("<L1><PA><FE><MA><WC><FE>bonkour"))
+    print(a.preparer_trame("<L1><PA><FE><MA><WC><FA><CA>Hello world"))
     #message = "<ID03><BE>05<E><ID03><L1><PA><FE><MQ><WC><FA><CA>Hello world60<E><ID03><BF>06<E>"
     #print(a.envoyer(message))
 
     #a.envoyer(a.preparer_trame("Salut"))
 
     #a.mettre_a_jour("<L1><PA><FE><MQ><WC><FA>", "<CA>Hello world")
-    a.mettre_a_jour("<L1><PA><FL><MA><WB><FF>", "<CD>Johnny")
+    #a.mettre_a_jour("<L1><PA><FL><MA><WB><FF>", "<CD>Johnny")
 
 
 
